@@ -6,7 +6,7 @@ class Program
     {
         string[] array = ReadArrayFromInput();
         string[] newArray = FilterArrayByLength(array, 3);
-        Console.WriteLine($"Результат работы программы:\n[{String.Join(",", array)}] -> [{String.Join(",", newArray)}]");
+        Console.WriteLine($"Результат работы программы:\n[{String.Join(", ", array)}] -> [{String.Join(", ", newArray)}]");
 
     }
 
